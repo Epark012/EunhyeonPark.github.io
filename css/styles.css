@@ -11492,6 +11492,7 @@ p {
   line-height: 30px;
 }
 
+/* My Code */
 .gridContainer
 {
 
@@ -11588,4 +11589,14 @@ p {
   /** Alternative Syntax **/
   /* grid-column: 5 / span 4; */
   /* grid-row: 6 / span 3; */
+}
+
+.section-Skills
+{
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  border-top: 1px solid rgba(230, 167, 86, 0.5);
+  border-bottom: 1px solid rgba(230, 167, 86, 0.5);
+  font-style: italic;
 }
