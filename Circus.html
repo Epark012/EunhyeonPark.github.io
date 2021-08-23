@@ -18,14 +18,14 @@
     <body>
         <header>
             <h1 class="site-heading text-center text-faded d-none d-lg-block">
-                <span class="site-heading-upper text-primary mb-3">Narrative Virtual Reality project</span>
-                <span class="site-heading-lower">The Pit</span>
+                <span class="site-heading-upper text-primary mb-3">Mobile Platform Game</span>
+                <span class="site-heading-lower">Circus</span>
             </h1>
         </header>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
             <div class="container">
-                <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Start Bootstrap</a>
+                <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">EH Park Portfolio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto">
@@ -37,64 +37,139 @@
                 </div>
             </div>
         </nav>
+
+ <!--image slider start-->
+ <div class ="sliderContatiner">
+    <section>
+        <!--Title-->
+        <div class="bg-faded p-2 d-flex ms-auto rounded">
+            <h2 class="section-heading mb-0">
+                <span class="section-heading-upper">Still shots of</span>
+                <span class="section-heading-lower">Circus</span>
+            </h2>
+        </div>
+            <div class="slider">
+                <div class ="slide">
+                    <!--radio button start-->
+                    <input type="radio" name="radio-btn" id= "radio1">
+                    <input type="radio" name="radio-btn" id= "radio2">
+                    <input type="radio" name="radio-btn" id= "radio3">
+                    <input type="radio" name="radio-btn" id= "radio4">
+                    <!--radio button end-->
+                    <!--slide images start-->
+                    <div class="slides first">
+                        <img src="assets/gif/circus/MainPlay.gif" alt="">
+                    </div>
+                    <div class="slides">
+                        <img src="assets/gif/circus/characterSelection.gif" alt="">
+                    </div>
+                    <div class="slides">
+                        <img src="assets/gif/circus/Op.gif" alt="">
+                    </div>
+                    <div class="slides">
+                        <img src="assets/img/circus/op4.PNG" alt="">
+                    </div>
+                    <!--slide images end-->
+                    <!--automatic navigation start-->
+                    <div class = "slide-navigation-auto">
+                        <div class ="auto-btn1"></div>
+                        <div class ="auto-btn2"></div>
+                        <div class ="auto-btn3"></div>
+                        <div class ="auto-btn4"></div>
+                    </div>
+                    <!--automatic navigation end-->
+                </div>
+                <!--manual navigation start-->
+                <div class="slide-navigation-manual">
+                    <label for = "radio1" class="manual-btn"></label>
+                    <label for = "radio2" class="manual-btn"></label>
+                    <label for = "radio3" class="manual-btn"></label>
+                    <label for = "radio4" class="manual-btn"></label>
+            </div>
+                <!--manual navigation end-->
+        </div>
+    </section>
+    <!--image slider end-->
+</div>
+
+
         <section class="page-section">
             <div class="container">
                 <div class="product-item">
                     <div class="product-item-title d-flex">
-                        <div class="bg-faded p-5 d-flex ms-auto rounded">
-                            <h2 class="section-heading mb-0">
-                                <span class="section-heading-upper">Narrative Virtual Reality project</span>
-                                <span class="section-heading-lower">The Pit</span>
-                            </h2>
-                        </div>
                     </div>
-                    <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="assets/img/products-01.jpg" alt="..." />
+                    <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="assets/gif/circus/characterSelection.gif" alt="..." />
                     <div class="product-item-description d-flex me-auto">
                         <div class="bg-faded p-5 rounded">
-                            <p class="mb-0">We take pride in our work, and it shows. Every time you order a beverage from us, we guarantee that it will be an experience worth having. Whether it's our world famous Venezuelan Cappuccino, a refreshing iced herbal tea, or something as simple as a cup of speciality sourced black coffee, you will be coming back for more.</p>
+                            <p class="mb-0"><strong><em>Storyline</em></strong><br> Based on the classic and Donkey Kong concept, I tried to convert 2D game into 3D Low poly concept game with a story that kids are sneaking around the circus. <br><br>  
+                                           <strong><em>Role</em></strong><br> As the target platform is moble environment, several design patterns are essential in this project, states, object pooling and command patterm. Additionally, low poly modelings help me learn how to use the basic of 3D modeling software.<br><br>  
+                                           <strong><em>Details</em></strong><br>Turning 2D ideas into 3D is interesting as a project leader, and adding more ideas were good experience as game developer. I have learnt some classic game designs in the development. </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <p> </p>
-        <section class="page-section">
-            <div class="container">
-                <div class="product-item">
-                    <div class="product-item-title d-flex">
-                        <div class="bg-faded p-5 d-flex me-auto rounded">
-                            <h2 class="section-heading mb-0">
-                                <span class="section-heading-upper">Mobile Platform Game</span>
-                                <span class="section-heading-lower">Circus</span>
-                            </h2>
-                        </div>
-                    </div>
-                    <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="assets/img/products-02.jpg" alt="..." />
-                    <div class="product-item-description d-flex ms-auto">
-                        <div class="bg-faded p-5 rounded"><p class="mb-0">Our seasonal menu features delicious snacks, baked goods, and even full meals perfect for breakfast or lunchtime. We source our ingredients from local, oragnic farms whenever possible, alongside premium vendors for specialty goods.</p></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <p></p>
+       
+       
         <section class="page-section">
             <div class="container">
                 <div class="product-item">
                     <div class="product-item-title d-flex">
                         <div class="bg-faded p-5 d-flex ms-auto rounded">
                             <h2 class="section-heading mb-0">
-                                <span class="section-heading-upper">Virtual Reality Experience based on a real story</span>
-                                <span class="section-heading-lower">Neverland</span>
+                                <span class="section-heading-upper">Key elements that I want to share</span>
+                                <span class="section-heading-lower">in Circus</span>
                             </h2>
                         </div>
                     </div>
-                    <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="assets/img/products-03.jpg" alt="..." />
-                    <div class="product-item-description d-flex me-auto">
-                        <div class="bg-faded p-5 rounded"><p class="mb-0">Travelling the world for the very best quality coffee is something take pride in. When you visit us, you'll always find new blends from around the world, mainly from regions in Central and South America. We sell our blends in smaller to large bulk quantities. Please visit us in person for more details.</p></div>
-                    </div>
+                    <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="assets/img/circus/op5.PNG" alt="..." />
+                        <!-- Image Gallery Start -->
+                        <div class="imgContainer">
+                     
+                            <div class="imgRow">
+                                <!---Image Section-->
+                                <img class="card-02" src="assets/img/circus/op7.PNG" alt="..." />
+                                <!-- Image Description -->
+                                <div class = "card-02">
+                                    <div class="bg-faded px-lg-4 py-6 rounded">
+                                        <p><strong><em>Game Play</em></strong><br> In order to make a loop in the game, infinite drums were essential. I have set object poolings to recycle drums. All VFX and sound are intended in low poly and classic theme. <br><br>  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="imgRow">
+                                <!---Image Section-->
+                                <img class="card-02" src="assets/img/circus/op6.PNG" alt="..." />
+                                <!-- Image Description -->
+                                <div class = "card-02">
+                                    <div class="bg-faded px-lg-4 py-6 rounded">
+                                        <p><strong><em>Game Play</em></strong><br> Characters can have events that affect game objects in the scene. When a character is closed to enemies, they turn into Attacking status, and when the character collect hammer, everything is destructible. <br><br>  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="imgRow">
+                            <img class="card-01" src="assets/img/circus/op8.PNG" alt="..." />
+                            <img class="card-01" src="assets/img/circus/op9.PNG" alt="..." />
+                            <img class="card-01" src="assets/img/circus/op10.PNG" alt="..." />
+                        </div>
+                        <!-- Image Gallery End -->
+                        <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="assets/gif/circus/Op.gif" alt="..." />
                 </div>
             </div>
         </section>
+
+        <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).check = true;
+            counter++;
+            if(counter>4){
+                counter =1;
+            }
+        }, 5000);
+        </script>
+
         <footer class="footer text-faded text-center py-5">
             <div class="container"><p class="m-0 small">Copyright &copy; Eun Hyeon Park, 2021</p></div>
         </footer>
