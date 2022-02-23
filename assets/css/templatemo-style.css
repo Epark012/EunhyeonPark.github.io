@@ -550,6 +550,15 @@ button:hover {
     background-image: url(../images/first-white-icon.png);
 }
 
+.service-item .pl1{
+    background-image: url(../images/logos/c#.png);
+}
+
+
+.service-item .pl2{
+    background-image: url(../images/logos/cpp.png);
+}
+
 .service-item:hover .first-service-icon {
     background-image: url(../images/first-main-icon.png);
 }
